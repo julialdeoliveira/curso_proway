@@ -13,5 +13,5 @@ class Carro{
   String nome;
   int rodas;
 
-  Carro(this.nome, this. rodas) : assert (rodas == 4, 'Isso é um carro ');
+  Carro(this.nome, this. rodas) : assert (rodas == 4, 'Isso não é um carro ');
 }
