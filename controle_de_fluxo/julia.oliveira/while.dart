@@ -20,9 +20,16 @@ void main() {
     }
   }
 
-  int contado = 0;
-  do{
-    print('Contando...$contado');
-    contado++;
-  } while (contado < 50);
-}
+  
+ 
+
+  int cont = 1;
+  while (cont <= 50){
+    print('Contando...$cont');
+    if(cont == 20){
+      continue;
+    }
+    cont ++;
+  }
+  
+  }
